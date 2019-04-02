@@ -1,10 +1,8 @@
 import json
-from multiprocessing import Lock
-from multiprocessing.dummy import Pool
 from time import clock
 
-from spiders.Topic import Topic
-from spiders.ZhihuLogin import ZhihuAccount
+from Topic import Topic
+from ZhihuLogin import ZhihuAccount
 
 
 def partial_send_request(send_request, lock):

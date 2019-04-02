@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-from spiders.ZhihuLogin import *
+from ZhihuLogin import *
 
 '''
 ******未完成*****

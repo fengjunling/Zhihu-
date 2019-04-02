@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-import getpass
 import threading
 
-from spiders import db
+import db
 
 '''
 ******已完成*****
@@ -17,8 +16,6 @@ import re
 import time
 from http import cookiejar
 from urllib.parse import urlencode
-from bs4 import BeautifulSoup
-from spiders.Topic import *
 import execjs
 import requests
 from PIL import Image

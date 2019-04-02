@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
-from spiders.ZhihuLogin import *
-from spiders.ZhihuLogin import ZhihuAccount
+from ZhihuLogin import ZhihuAccount
 
 '''
 ******已完成*****
