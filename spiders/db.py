@@ -32,9 +32,9 @@ class DbUtil:
     @classmethod
     def connect(cls):
         cnx = mysql.connector.connect(host=cls.__host,
-                      database=cls.__database,
-                      user=cls.__user,
-                      password=cls.__password)
+                                      database=cls.__database,
+                                      user=cls.__user,
+                                      password=cls.__password)
         return cnx
 
     @classmethod

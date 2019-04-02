@@ -3,14 +3,12 @@ import getpass
 import threading
 
 from spiders import db
-from spiders import TopicModel
 
-"""
-info:
-author:CriseLYJ
-github:https://github.com/CriseLYJ/
-update_time:2019-3-6
-"""
+'''
+******已完成*****
+info:知乎登陆
+
+'''
 import base64
 import hashlib
 import hmac
@@ -20,13 +18,15 @@ import time
 from http import cookiejar
 from urllib.parse import urlencode
 from bs4 import BeautifulSoup
-
+from spiders.Topic import *
 import execjs
 import requests
 from PIL import Image
 
 
 class ZhihuAccount(object):
+    # 连接数据库
+    con = db.DbUtil.connect()
 
     def __init__(self, username: str = None, password: str = None):
         self.username = username
@@ -98,10 +98,9 @@ class ZhihuAccount(object):
             'x-xsrftoken': self._get_xsrf()
         })
 
-        # timestamp = int(time.time() * 1000)
         timestamp = int(round(time.time() * 1000))
         self.login_data.update({
-            'captcha': self._get_captcha(headers=headers),
+            'captcha': self._get_captcha(),
             'timestamp': timestamp,
             'signature': self._get_signature(timestamp)
         })
@@ -141,16 +140,6 @@ class ZhihuAccount(object):
             self.session.cookies.save()
             return True
         return False
-
-    def _update_xsrf(self):
-        '''
-        更新header的请求头
-        :return:
-        '''
-        self.session.cookies.load(ignore_discard=True)
-        for c in self.session.cookies:
-            if c.name == '_xsrf':
-                return c.value
 
     def _get_xsrf(self):
         """
@@ -244,134 +233,3 @@ class ZhihuAccount(object):
             js = execjs.compile(f.read())
             print(urlencode(form_data))
             return js.call('Q', urlencode(form_data))
-
-
-# 解析話題列表
-def parseTopic(data, data_list=[]):
-    for x in data:
-        if len(x) > 0 and isinstance(x[0], list):
-            parseTopic(x, data_list)
-        else:
-            data_list.append(x)
-    return data_list
-
-
-# 话题详情页
-def requestTopicInfos(token=None):
-    # 更新token
-    account.session.headers.update({
-        'x-xsrftoken': account._update_xsrf()
-    })
-
-    if token is not None:
-        response = account.session.get(
-            domin + "/topic/" + token + "/hot", headers=account.session.headers, cookies=account.session.cookies)
-    account.session.cookies.save()
-    return response.text
-
-
-def parseTopicInfos(text):
-    soup = BeautifulSoup(text, 'lxml')
-    # 获取desc,url,name,image,bestAnsweredCount,unansweredCount,questions
-    res1 = soup.select('main.App-main meta')[0:7]
-    # 获取followers
-    res2 = soup.select('div.ContentLayout-sideColumn div.Card button strong')
-    # infos按序 followers,desc,url,name,image,bestAnsweredCount,unansweredCount,questions
-    infos = {}
-    infos['followers'] = res2[0].attrs['title']
-    for n in res1:
-        infos[n.attrs['itemprop']] = n.attrs['content']
-        # print(n.attrs['itemprop'] + " " + n.attrs['content'])
-    return infos
-
-
-# 請求話題數據
-def requestTopic(datas=None):
-    # 更新token
-    account.session.headers.update({
-        'x-xsrftoken': account._update_xsrf()
-    })
-    _xsrf = account.session.headers['x-xsrftoken']
-
-    if datas is None:
-        response = account.session.post(domin + "/topic/19776749/organize/entire", data={'_xsrf': _xsrf},
-                                        headers=account.session.headers, cookies=account.session.cookies)
-    else:
-        response = account.session.post(
-            domin + "/topic/19776749/organize/entire?child=" + datas[0] + "&parent=" + datas[1], data={'_xsrf': _xsrf},
-            headers=account.session.headers, cookies=account.session.cookies)
-    account.session.cookies.save()
-    return response
-
-
-# 保存数据库
-def save(data):
-    cur = con.cursor()
-    sql = "insert into topic values (default ,'{}','{}','{}','{}','{}','{}','{}','{}','{}')".format(data[0], data[1],
-                                                                                                    data[3]['url'],
-                                                                                                    data[3][
-                                                                                                        'description'],
-                                                                                                    data[2],
-                                                                                                    data[3][
-                                                                                                        'followers'],
-                                                                                                    data[3][
-                                                                                                        'zhihu:bestAnswersCount'],
-                                                                                                    data[3][
-                                                                                                        'zhihu:unansweredCount'],
-                                                                                                    data[3][
-                                                                                                        'zhihu:questionsCount'])
-    cur.execute(sql)
-    con.commit()
-    cur.close()
-
-
-if __name__ == '__main__':
-    account = ZhihuAccount('15937829283', 'zhihumima1234')
-    is_login = account.login(captcha_lang='en', load_cookies=True)
-    domin = 'https://www.zhihu.com'
-
-    # 连接数据库
-    con = db.DbUtil.connect()
-    urls = []
-    begin = True
-    # 统计请求条数
-    count = 0
-    if is_login:
-        while len(urls) > 0 or begin == True:
-            # 若为第一次请求
-            if begin:
-                resp = requestTopic()
-                parent = '19776749'
-                begin = False
-            else:
-                resp = requestTopic(urls[0])
-                parent = urls[0][1]
-                # 去除已请求过的连接
-                urls.pop(0)
-            data = json.loads(resp.text)
-            data_list = parseTopic(data['msg'], data_list=[])
-            # 剔除第一个(数据重复)
-            data_list.pop(0)
-
-            for x in data_list:
-                try:
-                    if len(x) > 0:
-                        if x[0] == 'topic':
-                            infos = parseTopicInfos(requestTopicInfos(x[2]))
-                            save([x[2], x[1], parent, infos])
-                            print(x)
-                        elif x[0] == 'load':
-                            urls.append([x[2], x[3]])
-                    else:
-                        pass
-                except Exception as e:
-                    with open('./log.txt', 'a') as f:
-                        f.write(str(e.args)+'\r\n')
-                    print(e.args)
-
-            print("请求中...")
-    else:
-        print("爬取失败")
-    # 关闭数据库连接
-    con.close()
-    print(urls)
