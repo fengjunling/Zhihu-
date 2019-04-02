@@ -23,6 +23,7 @@ if __name__ == '__main__':
     urls = []
     begin = True
 
+    # 多线程
     # pool = Pool(8)
     # lock = Lock()
     # partial_send_request(send_request, lock=lock)
