@@ -1,104 +1,376 @@
-(MaxRetryError("HTTPSConnectionPool(host='www.zhihu.com', port=443): Max retries exceeded with url: /topic/20018611/hot (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000000053EE0F0>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed'))"),)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-("type object 'Topic' has no attribute 'con'",)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'µÄ¾àÀëÏàÍ¬¡£ÕÜÑ§ÉÏ£¬ÔË¶¯µÄ¶¨Òå¡­','19778317','3710012','999','29' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'µÄ¾àÀëÏàÍ¬¡£ÕÜÑ§ÉÏ£¬ÔË¶¯µÄ¶¨Òå¡­','19778317','3710013','999','29' at line 1", '42000')
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '¨ª ·¢Òô£º£»»ò³Æ°Í¹şÒÁ½Ì£»¼ò³Æ°Í¹şÒÁ£»¾ÉÒë¡°´óÍ¬½Ì¡±£©' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ÊıÑ§¼ÒÊÇÖ¸Ò»Ğ©¶ÔÊıÑ§ÓĞÉîÈëÁË½âµÄÈËÊ¿£¬½«ÆäËùÑ§ÖªÊ¶ÔË' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ÊıÑ§¼ÒÊÇÖ¸Ò»Ğ©¶ÔÊıÑ§ÓĞÉîÈëÁË½âµÄÈËÊ¿£¬½«ÆäËùÑ§ÖªÊ¶ÔË' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Daily£©ÊÇÖĞ¹ú¹²²úµ³ÖĞÑëÎ¯Ô±»á»ú¹Ø±¨¡£±¨Ö½ÓÚ1948Äê6ÔÂ15ÈÕ' at line 1", '42000')
-('list index out of range',)
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ESTÒôÀÖ´ú±í×÷Æ·¡¶¸ıĞÄ¡·¡¢¡¶º®¸ü¡·¡¢¡¶UNLOCK¡·¡¢¡¶µÚ9´Î³õ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '¨ª ·¢Òô£º£»»ò³Æ°Í¹şÒÁ½Ì£»¼ò³Æ°Í¹şÒÁ£»¾ÉÒë¡°´óÍ¬½Ì¡±£©' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association£ºRMA£©£¬Ö»ÓĞ17Ãû³ÉÔ±£¬´ú±í²»¹ı200ÍòÃÀÔª²úÖµµÄÎŞ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association£ºRMA£©£¬Ö»ÓĞ17Ãû³ÉÔ±£¬´ú±í²»¹ı200ÍòÃÀÔª²úÖµµÄÎŞ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association£ºRMA£©£¬Ö»ÓĞ17Ãû³ÉÔ±£¬´ú±í²»¹ı200ÍòÃÀÔª²úÖµµÄÎŞ' at line 1", '42000')
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Association£©°´ÆäÑ¡¶¨µÄÒ»ÅúÒøĞĞ£¬ÓÚÂ×¶Ø»õ±ÒÊĞ³¡±¨³öµÄÒø' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Neill£©Ê×´ÎÌá³ö¡°½ğ×©ËÄ¹ú¡±ÕâÒ»¸ÅÄî£¬ÌØÖ¸ĞÂĞËÊĞ³¡Í¶×Ê´ú' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Bank Of China£¬Ó¢ÎÄ¼ò³ÆPBOC£©£¬¼ò³ÆÑëĞĞ£¬ÊÇÖĞ»ªÈËÃñ¹²ºÍ¹ú' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Day)¡£¹â¹÷½Ú²úÉúÓÚĞ£Ô°£¬²¢Í¨¹ıÍøÂçµÈÃ½½é´«²¥£¬Öğ½¥ĞÎ' at line 1", '42000')
-('list index out of range',)
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ESTÒôÀÖ´ú±í×÷Æ·¡¶¸ıĞÄ¡·¡¢¡¶º®¸ü¡·¡¢¡¶UNLOCK¡·¡¢¡¶µÚ9´Î³õ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's»î³öÈ¤¹ã¸æ¡­','20072209','2','2','2','2')' at line 1", '42000')
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ESTÒôÀÖ´ú±í×÷Æ·¡¶¸ıĞÄ¡·¡¢¡¶º®¸ü¡·¡¢¡¶UNLOCK¡·¡¢¡¶µÚ9´Î³õ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'an Jiaotong University£©¼ò³Æ¡°Î÷°²½»´ó¡±£¬Î»ÓÚ¹Å¶¼Î÷°²£¬ÊÇÖĞ' at line 1", '42000')
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's game)£¬ÊÇÒ»Ïî³çÉĞÌåÓı¾«Éñ£¨sportsmanship)ºÍ¡°¹«Æ½±ÈÈü¡±(fair' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'teryx¡¢Atomic¡¢Wilson¡­','19672406','912','26','189','189')' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's House£©','https://www.zhihu.com/topic/20185793','¡¶ÍæÅ¼Ö®¼Ò¡·ÊÇÅ²Íş' at line 1", '42000')
-('list index out of range',)
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ESTÒôÀÖ´ú±í×÷Æ·¡¶¸ıĞÄ¡·¡¢¡¶º®¸ü¡·¡¢¡¶UNLOCK¡·¡¢¡¶µÚ9´Î³õ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Day¡·µÇÉÏ¹«¸æÅÆ¶ş°ÙÇ¿×¨¼­°ñµÄ°ñÊ×¡£2008Äê4ÔÂ4ÈÕÓëËµ³ªÌì' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'N' Roll'£¬ĞËÆğÓÚ20ÊÀ¼Í50Äê´úÖĞÆÚ£¬Ö÷ÒªÊÜµ½½Ú×à²¼Â³Ë¹¡¢Ïç' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's University£©£¬¼ò³ÆÊ¥Ô¼º²¡¢Ô¼´ó£¬µ®ÉúÓÚ1879Äê£¬³õÃûÊ¥Ô¼º²' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '74.','19849027','146','14','15','15')' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '£¬±±Î³10¡ã27'£©£¬ÄÏÖÁ¶ò¼ÓÀÕË¹½Ç£¨¶«¾­20¡ã02'£¬ÄÏÎ³34¡ã51'£©' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ESTÒôÀÖ´ú±í×÷Æ·¡¶¸ıĞÄ¡·¡¢¡¶º®¸ü¡·¡¢¡¶UNLOCK¡·¡¢¡¶µÚ9´Î³õ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '¡ª112¡ã04'£¬±±Î³34¡ã 35'¡ª\x7f35¡ã49'Ö®¼ä£¬¶«Î÷³¤201.87Ç§Ã×£¬ÄÏ±±' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's rights£»women's liberation£©ÓÖÒëÅ®ĞÔÔË¶¯£¬¼´·´¶ÔÆçÊÓÅ®ĞÔ£¬Ê¹' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association£ºRMA£©£¬Ö»ÓĞ17Ãû³ÉÔ±£¬´ú±í²»¹ı200ÍòÃÀÔª²úÖµµÄÎŞ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association£ºRMA£©£¬Ö»ÓĞ17Ãû³ÉÔ±£¬´ú±í²»¹ı200ÍòÃÀÔª²úÖµµÄÎŞ' at line 1", '42000')
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'star-taker')ĞÇÅÌ£¬ÊÇ¹Å´úÌìÎÄÑ§¼Ò£¬Õ¼ĞÇÊ¦ºÍº½º£¼ÒÓÃÀ´½øĞĞ' at line 1", '42000')
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association£ºRMA£©£¬Ö»ÓĞ17Ãû³ÉÔ±£¬´ú±í²»¹ı200ÍòÃÀÔª²úÖµµÄÎŞ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association£ºRMA£©£¬Ö»ÓĞ17Ãû³ÉÔ±£¬´ú±í²»¹ı200ÍòÃÀÔª²úÖµµÄÎŞ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association£ºRMA£©£¬Ö»ÓĞ17Ãû³ÉÔ±£¬´ú±í²»¹ı200ÍòÃÀÔª²úÖµµÄÎŞ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association£ºRMA£©£¬Ö»ÓĞ17Ãû³ÉÔ±£¬´ú±í²»¹ı200ÍòÃÀÔª²úÖµµÄÎŞ' at line 1", '42000')
-('list index out of range',)
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Republic of China£¬ËõĞ´ÎªMOT¡£½»Í¨ÔËÊä²¿ÊÇÖĞ»ªÈËÃñ¹²ºÍ¹ú¹ú' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association£ºRMA£©£¬Ö»ÓĞ17Ãû³ÉÔ±£¬´ú±í²»¹ı200ÍòÃÀÔª²úÖµµÄÎŞ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(x0)»òdf(x0)/dx¡£µ¼ÊıÊÇº¯ÊıµÄ¾Ö²¿ĞÔÖÊ¡£Ò»¸öº¯ÊıÔÚÄ³Ò»µãµÄ' at line 1", '42000')
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's meaning to the study of abstract formalisms such as typed ¦Ë-calculi.','198275' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Neill£©Ê×´ÎÌá³ö¡°½ğ×©ËÄ¹ú¡±ÕâÒ»¸ÅÄî£¬ÌØÖ¸ĞÂĞËÊĞ³¡Í¶×Ê´ú' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Neill£©Ê×´ÎÌá³ö¡°½ğ×©ËÄ¹ú¡±ÕâÒ»¸ÅÄî£¬ÌØÖ¸ĞÂĞËÊĞ³¡Í¶×Ê´ú' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '£¬±±Î³26¡ã86'£¬×ÜÃæ»ı2.06ÍòÆ½·½¹«Àï£¬±±Á¬µÏÇì²Ø×å×ÔÖÎÖİ£¬' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ris sa khul£©£¬ÊÇÖĞ»ªÈËÃñ¹²ºÍ¹úÎ÷²Ø×ÔÖÎÇøµÄÒ»¸öµØ¼¶ĞĞÕşÇø' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Neill£©Ê×´ÎÌá³ö¡°½ğ×©ËÄ¹ú¡±ÕâÒ»¸ÅÄî£¬ÌØÖ¸ĞÂĞËÊĞ³¡Í¶×Ê´ú' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's impossibility theorem£©','https://www.zhihu.com/topic/20018904','','19605779'' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(x0)»òdf(x0)/dx¡£µ¼ÊıÊÇº¯ÊıµÄ¾Ö²¿ĞÔÖÊ¡£Ò»¸öº¯ÊıÔÚÄ³Ò»µãµÄ' at line 1", '42000')
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'star-taker')ĞÇÅÌ£¬ÊÇ¹Å´úÌìÎÄÑ§¼Ò£¬Õ¼ĞÇÊ¦ºÍº½º£¼ÒÓÃÀ´½øĞĞ' at line 1", '42000')
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association£ºRMA£©£¬Ö»ÓĞ17Ãû³ÉÔ±£¬´ú±í²»¹ı200ÍòÃÀÔª²úÖµµÄÎŞ' at line 1", '42000')
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Bank Of China£¬Ó¢ÎÄ¼ò³ÆPBOC£©£¬¼ò³ÆÑëĞĞ£¬ÊÇÖĞ»ªÈËÃñ¹²ºÍ¹ú' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ESTÒôÀÖ´ú±í×÷Æ·¡¶¸ıĞÄ¡·¡¢¡¶º®¸ü¡·¡¢¡¶UNLOCK¡·¡¢¡¶µÚ9´Î³õ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Republic of China£¬ËõĞ´ÎªMOT¡£½»Í¨ÔËÊä²¿ÊÇÖĞ»ªÈËÃñ¹²ºÍ¹ú¹ú' at line 1", '42000')
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's studies£¨Å®Ñ§£©£¬¼ÈÊÇ¸¾Å®ÔË¶¯µÄÑÓĞø£¬ÓÖÊÇÒ»³¡ÔÚÖªÊ¶Éú' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Agent Carter£¬»ò¼ò³Æ£ºAgent Carter£©ÊÇÂşÍşµçÊÓÁªºÏABCµçÊÓÌ¨ÍÆ' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's rights£»women's liberation£©ÓÖÒëÅ®ĞÔÔË¶¯£¬¼´·´¶ÔÆçÊÓÅ®ĞÔ£¬Ê¹' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Encrypt','https://www.zhihu.com/topic/20033329','Let¡¯s Encrypt is a free, au' at line 1", '42000')
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's magazine¡·¹²Í¬´òÔìµÄ¿çÃ½ÌåÅ¼ÏñÆó»®¡°LoveLive! Ñ§Ô°Å¼Ïñ¼Æ»®' at line 1", '42000')
-('list index out of range',)
-(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Factory¡£³ÉÔ±ÓÉkzºÍ¤«¤¸¤å¤­P¶şÈË×é³É£¬ºóÕßÓÚ2009Äê3ÔÂÀë¿ª' at line 1", '42000')
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'N' Roll'\\uff0c\\u5174\\u8d77\\u4e8e20\\u4e16\\u7eaa50\\u5e74\\u4ee3\\u4e2d\\u671f\\uff0c\\u' at line 1", '42000')2019-04-10 09:50:51.204000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\u7684\\u8ddd\\u79bb\\u76f8\\u540c\\u3002\\u54f2\\u5b66\\u4e0a\\uff0c\\u8fd0\\u52a8\\u7684\\u' at line 1", '42000')2019-04-10 09:51:35.898000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'N' Roll'\\uff0c\\u5174\\u8d77\\u4e8e20\\u4e16\\u7eaa50\\u5e74\\u4ee3\\u4e2d\\u671f\\uff0c\\u' at line 1", '42000')2019-04-10 09:53:13.670000
+('the JSON object must be str, bytes or bytearray, not NoneType',)2019-04-10 10:08:27.106000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\u7684\\u8ddd\\u79bb\\u76f8\\u540c\\u3002\\u54f2\\u5b66\\u4e0a\\uff0c\\u8fd0\\u52a8\\u7684\\u' at line 1", '42000')2019-04-10 10:09:06.267000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'N' Roll'\\uff0c\\u5174\\u8d77\\u4e8e20\\u4e16\\u7eaa50\\u5e74\\u4ee3\\u4e2d\\u671f\\uff0c\\u' at line 1", '42000')2019-04-10 10:33:31.018000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'N' Roll'\\uff0c\\u5174\\u8d77\\u4e8e20\\u4e16\\u7eaa50\\u5e74\\u4ee3\\u4e2d\\u671f\\uff0c\\u' at line 1", '42000')2019-04-10 10:36:18.193000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\u7684\\u8ddd\\u79bb\\u76f8\\u540c\\u3002\\u54f2\\u5b66\\u4e0a\\uff0c\\u8fd0\\u52a8\\u7684\\u' at line 1", '42000')2019-04-10 10:36:28.689000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'N' Roll'\\uff0c\\u5174\\u8d77\\u4e8e20\\u4e16\\u7eaa50\\u5e74\\u4ee3\\u4e2d\\u671f\\uff0c\\u' at line 1", '42000')2019-04-10 10:37:16.547000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'N' Roll'\\uff0c\\u5174\\u8d77\\u4e8e20\\u4e16\\u7eaa50\\u5e74\\u4ee3\\u4e2d\\u671f\\uff0c\\u' at line 1", '42000')2019-04-10 10:37:16.583000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'N' Roll'\\uff0c\\u5174\\u8d77\\u4e8e20\\u4e16\\u7eaa50\\u5e74\\u4ee3\\u4e2d\\u671f\\uff0c\\u' at line 1", '42000')2019-04-10 10:38:17.936000
+('list index out of range',)2019-04-10 10:38:42.840000
+('name',)2019-04-10 10:38:42.842000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sTheorem','people','https://www.zhihu.com/people/4fce93a0a74f40b3d836cb8128672c4' at line 1", '42000')2019-04-10 10:40:18.765000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 10:41:47.451000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 10:42:20.313000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\u00ed \\u53d1\\u97f3\\uff1a\\uff1b\\u6216\\u79f0\\u5df4\\u54c8\\u4f0a\\u6559\\uff1b\\u7b80\\' at line 1", '42000')2019-04-10 10:45:21.578000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 10:45:32.551000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's','people','https://www.zhihu.com/people/93f3a3fa1e828fc7703c19029852f806','den' at line 1", '42000')2019-04-10 10:46:07.696000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'C','people','https://www.zhihu.com/people/96bcd27e4f8e79e0be795fbfb17eef6a','toc' at line 1", '42000')2019-04-10 10:46:07.709000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 10:47:28.196000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\u6570\\u5b66\\u5bb6\\u662f\\u6307\\u4e00\\u4e9b\\u5bf9\\u6570\\u5b66\\u6709\\u6df1\\u5165\\u' at line 1", '42000')2019-04-10 10:55:56.908000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\u6570\\u5b66\\u5bb6\\u662f\\u6307\\u4e00\\u4e9b\\u5bf9\\u6570\\u5b66\\u6709\\u6df1\\u5165\\u' at line 1", '42000')2019-04-10 10:59:21.261000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:01:46.347000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:02:11.035000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Daily\\uff09\\u662f\\u4e2d\\u56fd\\u5171\\u4ea7\\u515a\\u4e2d\\u592e\\u59d4\\u5458\\u4f1a\\' at line 1", '42000')2019-04-10 11:02:26.071000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:02:28.356000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:03:01.582000
+('list index out of range',)2019-04-10 11:03:39.216000
+('name',)2019-04-10 11:03:39.222000
+('list index out of range',)2019-04-10 11:06:46.068000
+('name',)2019-04-10 11:06:46.069000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:06:59.933000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:08:27.064000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:08:50.478000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:12:07.580000
+(ProtocolError('Connection broken: IncompleteRead(0 bytes read)', IncompleteRead(0 bytes read)),)2019-04-10 11:13:05
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:13:54.913000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ray','people','https://www.zhihu.com/people/250eff7efb9ff62d733d33b4a1c989e4','i' at line 1", '42000')2019-04-10 11:14:05.097000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:14:09.451000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'N' Roll'\\uff0c\\u5174\\u8d77\\u4e8e20\\u4e16\\u7eaa50\\u5e74\\u4ee3\\u4e2d\\u671f\\uff0c\\u' at line 1", '42000')2019-04-10 11:14:27.981000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:18:00.077000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'heel','people','https://www.zhihu.com/people/6d4743c44c7e10ed569e5a5f372316ff','' at line 1", '42000')2019-04-10 11:19:25.349000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EST\\u97f3\\u4e50\\u4ee3\\u8868\\u4f5c\\u54c1\\u300a\\u5e9a\\u5fc3\\u300b\\u3001\\u300a\\u5bd' at line 1", '42000')2019-04-10 11:20:08.751000
+('list index out of range',)2019-04-10 11:26:36.805000
+('followers',)2019-04-10 11:26:36.806000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:27:44.970000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's','people','https://www.zhihu.com/people/507a75b7635e4c215a7fc80638479920','zho' at line 1", '42000')2019-04-10 11:29:26.774000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:31:51.323000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:32:33.007000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:34:28.137000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\u00ed \\u53d1\\u97f3\\uff1a\\uff1b\\u6216\\u79f0\\u5df4\\u54c8\\u4f0a\\u6559\\uff1b\\u7b80\\' at line 1", '42000')2019-04-10 11:38:03.981000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:39:50.126000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:41:41.933000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/qi-zhao-luo-tuo-liu-zhao-yang/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 11:44:51.389000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:45:27.936000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Analyse','people','https://www.zhihu.com/people/e2017a60450ccd4f3a725eee8437f3b3' at line 1", '42000')2019-04-10 11:49:12.221000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:49:17.212000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ca','people','https://www.zhihu.com/people/ac67d0cc1a6977548df5f8550f13a82c','qi' at line 1", '42000')2019-04-10 11:50:09.089000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'False','False','å¼ å­æ¨','people','https://www.zhihu.com/people/9f4795c171ed4a' at line 1", '42000')2019-04-10 11:50:53.159000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:55:01.312000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:56:40.630000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association\\uff1aRMA\\uff09\\uff0c\\u53ea\\u670917\\u540d\\u6210\\u5458\\uff0c\\u4ee3\\u88' at line 1", '42000')2019-04-10 11:57:21.104000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 11:59:58.793000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association\\uff1aRMA\\uff09\\uff0c\\u53ea\\u670917\\u540d\\u6210\\u5458\\uff0c\\u4ee3\\u88' at line 1", '42000')2019-04-10 12:00:24.418000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:01:49.659000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:02:10.298000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association\\uff1aRMA\\uff09\\uff0c\\u53ea\\u670917\\u540d\\u6210\\u5458\\uff0c\\u4ee3\\u88' at line 1", '42000')2019-04-10 12:02:17.535000
+('list index out of range',)2019-04-10 12:06:24.688000
+('name',)2019-04-10 12:06:24.689000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:09:07.696000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sDad','people','https://www.zhihu.com/people/cef55454474d86ca7eb0b3dfdd9a6fc1','' at line 1", '42000')2019-04-10 12:10:20.864000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:12:07.542000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Association\\uff09\\u6309\\u5176\\u9009\\u5b9a\\u7684\\u4e00\\u6279\\u94f6\\u884c\\uff0c\\' at line 1", '42000')2019-04-10 12:13:02.349000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:15:36.804000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rden','people','https://www.zhihu.com/people/0a424e10e8bc40db39b8ee0f24c8ea22','' at line 1", '42000')2019-04-10 12:18:16.641000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Neill\\uff09\\u9996\\u6b21\\u63d0\\u51fa\\u201c\\u91d1\\u7816\\u56db\\u56fd\\u201d\\u8fd9\\u4' at line 1", '42000')2019-04-10 12:19:51.494000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:21:39.259000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:22:50.781000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Thuzad','people','https://www.zhihu.com/people/df935b1e2b8771ace60790a619ff6201'' at line 1", '42000')2019-04-10 12:32:14.734000
+('Expecting value: line 1 column 1 (char 0)',)2019-04-10 12:35:31.503000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'False','False','è¶³é‡è¡Œè€…','people','https://www.zhihu.com/people/b0f3670b019' at line 1", '42000')2019-04-10 12:43:25.903000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:43:26.420000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:44:10.438000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Bank Of China\\uff0c\\u82f1\\u6587\\u7b80\\u79f0PBOC\\uff09\\uff0c\\u7b80\\u79f0\\u592e\\' at line 1", '42000')2019-04-10 12:46:09.430000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:47:17.043000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's','people','https://www.zhihu.com/people/431028194d8be3e124e2600fb0d744bf','che' at line 1", '42000')2019-04-10 12:49:22.937000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'N' Roll'\\uff0c\\u5174\\u8d77\\u4e8e20\\u4e16\\u7eaa50\\u5e74\\u4ee3\\u4e2d\\u671f\\uff0c\\u' at line 1", '42000')2019-04-10 12:50:13.404000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:50:32.443000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:52:10.813000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:55:33.476000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Z','people','https://www.zhihu.com/people/a7190626699aa101aa066e19e2312d39','zan' at line 1", '42000')2019-04-10 12:55:51.571000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:56:56.398000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:56:57.720000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:57:32.829000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 12:59:39.709000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'epines','people','https://www.zhihu.com/people/c5e51b00b0cb779fc955d3b9bf082032'' at line 1", '42000')2019-04-10 13:07:33.611000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Day)\\u3002\\u5149\\u68cd\\u8282\\u4ea7\\u751f\\u4e8e\\u6821\\u56ed\\uff0c\\u5e76\\u901a\\u' at line 1", '42000')2019-04-10 13:09:06.296000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mok','people','https://www.zhihu.com/people/9340c7a1d2f71995fcd4fe916fcb32da','i' at line 1", '42000')2019-04-10 13:09:31.947000
+('list index out of range',)2019-04-10 13:14:22.159000
+('name',)2019-04-10 13:14:22.160000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:17:01.745000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:17:59.389000
+(MaxRetryError("HTTPSConnectionPool(host='www.zhihu.com', port=443): Max retries exceeded with url: /topic/19776749/organize/entire?child=&parent=19587634 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response')))"),)2019-04-10 13:20:54.566000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/wei-guo-hui-39/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 13:20:57.912000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/ren-wo-xin-yi/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=20 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 13:21:09.976000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/jiang-gui-ping-98/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 13:21:35.854000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/xiaolong-wang-60/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 13:22:20.459000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:24:27.544000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:25:16.296000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:25:46.039000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:26:43.429000
+('list index out of range',)2019-04-10 13:27:08
+('name',)2019-04-10 13:27:08
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:27:30.005000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EST\\u97f3\\u4e50\\u4ee3\\u8868\\u4f5c\\u54c1\\u300a\\u5e9a\\u5fc3\\u300b\\u3001\\u300a\\u5bd' at line 1", '42000')2019-04-10 13:29:28.610000
+(1064, '1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s\\u6d3b\\u51fa\\u8da3\\u5e7f\\u544a\\u2026"\',\'20072209\',\'2\',\'2\',\'2\',\'2\',\'2019-04-10 1\' at line 1', '42000')2019-04-10 13:30:01.627000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AIHSIUCHOMA','people','https://www.zhihu.com/people/2e0fe203c674d92a1d42692a79cb' at line 1", '42000')2019-04-10 13:31:35.441000
+('list index out of range',)2019-04-10 13:33:13.177000
+('name',)2019-04-10 13:33:13.178000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:33:37.262000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EST\\u97f3\\u4e50\\u4ee3\\u8868\\u4f5c\\u54c1\\u300a\\u5e9a\\u5fc3\\u300b\\u3001\\u300a\\u5bd' at line 1", '42000')2019-04-10 13:33:56.574000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:38:50.300000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'an Jiaotong University\\uff09\\u7b80\\u79f0\\u201c\\u897f\\u5b89\\u4ea4\\u5927\\u201d\\uff' at line 1", '42000')2019-04-10 13:40:18.807000
+('list index out of range',)2019-04-10 13:46:49.864000
+('name',)2019-04-10 13:46:49.865000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:48:04.021000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:49:17.062000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:50:31.180000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mDachen','people','https://www.zhihu.com/people/bacf40dfd46c6c44c4e7c391c79e569e' at line 1", '42000')2019-04-10 13:51:54.465000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:52:05.702000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:54:06.128000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:54:30.051000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:55:07.063000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'estLaVie','people','https://www.zhihu.com/people/126ac54c25a820d458fa81e96f10b54' at line 1", '42000')2019-04-10 13:56:24.103000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 13:59:22.954000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's game)\\uff0c\\u662f\\u4e00\\u9879\\u5d07\\u5c1a\\u4f53\\u80b2\\u7cbe\\u795e\\uff08sportsm' at line 1", '42000')2019-04-10 14:02:16.591000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'False','False','å°‘å¥³æ€»è£','people','https://www.zhihu.com/people/3312c2647c9' at line 1", '42000')2019-04-10 14:02:40.144000
+(1064, '1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'teryx\\u3001Atomic\\u3001Wilson\\u2026"\',\'19672406\',\'914\',\'26\',\'192\',\'192\',\'2019-04\' at line 1', '42000')2019-04-10 14:03:10.760000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:03:44.434000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:03:56.216000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Aon Meng','people','https://www.zhihu.com/people/073bf4de84033f04d8d7f68bc3546ff' at line 1", '42000')2019-04-10 14:04:27.969000
+(1064, '1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s Houseï¼‰\',\'https://www.zhihu.com/topic/20185793\',\'"\\u300a\\u73a9\\u5076\\u4e4b\\u5\' at line 1', '42000')2019-04-10 14:06:59.171000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's','people','https://www.zhihu.com/people/a5546609add461d7df90e990406a2a34','wan' at line 1", '42000')2019-04-10 14:07:34.011000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:08:10.550000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:08:33.082000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'å¿„æ™´','people','https://www.zhihu.com/people/4cc0f8a26789469eb0f6d365c9c16b57'' at line 1", '42000')2019-04-10 14:08:56.013000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:09:06.561000
+('list index out of range',)2019-04-10 14:09:09.561000
+('name',)2019-04-10 14:09:09.562000
+('list index out of range',)2019-04-10 14:10:07.172000
+('name',)2019-04-10 14:10:07.173000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:10:08.426000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:10:18.646000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EST\\u97f3\\u4e50\\u4ee3\\u8868\\u4f5c\\u54c1\\u300a\\u5e9a\\u5fc3\\u300b\\u3001\\u300a\\u5bd' at line 1", '42000')2019-04-10 14:10:48.339000
+('çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/dogfaceboy/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 å¤±è´¥ (MaxRetryError("HTTPSConnectionPool(host=\'www.zhihu.com\', port=443): Max retries exceeded with url: /api/v4/members/dogfaceboy/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 (Caused by ProxyError(\'Cannot connect to proxy.\', RemoteDisconnected(\'Remote end closed connection without response\')))"),)',)2019-04-10 14:21:55.793000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/yanzhigao/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=80 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 14:24:17.360000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Day\\u300b\\u767b\\u4e0a\\u516c\\u544a\\u724c\\u4e8c\\u767e\\u5f3a\\u4e13\\u8f91\\u699c\\u768' at line 1", '42000')2019-04-10 14:26:49.359000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'N' Roll'\\uff0c\\u5174\\u8d77\\u4e8e20\\u4e16\\u7eaa50\\u5e74\\u4ee3\\u4e2d\\u671f\\uff0c\\u' at line 1", '42000')2019-04-10 14:27:09.827000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/ji-fan-8-86/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=20 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 14:27:37.053000
+(MaxRetryError('HTTPSConnectionPool(host=\'www.zhihu.com\', port=443): Max retries exceeded with url: /topic/19585306/hot (Caused by SSLError(SSLError("bad handshake: SysCallError(-1, \'Unexpected EOF\')")))'),)2019-04-10 14:33:21.864000
+(MaxRetryError('HTTPSConnectionPool(host=\'www.zhihu.com\', port=443): Max retries exceeded with url: /topic/19740012/hot (Caused by SSLError(SSLError("bad handshake: SysCallError(-1, \'Unexpected EOF\')")))'),)2019-04-10 14:33:26.876000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('Unterminated string starting at: line 1 column 6069 (char 6068)',)",)2019-04-10 14:33:27.995000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's','people','https://www.zhihu.com/people/348edea39564315117051c28a5af21e0','qi-' at line 1", '42000')2019-04-10 14:37:00.993000
+(MaxRetryError("HTTPSConnectionPool(host='www.zhihu.com', port=443): Max retries exceeded with url: /topic/19609477/hot (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response')))"),)2019-04-10 14:38:46.366000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:39:51.856000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:43:27.182000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's University\\uff09\\uff0c\\u7b80\\u79f0\\u5723\\u7ea6\\u7ff0\\u3001\\u7ea6\\u5927\\uff0c\\u' at line 1", '42000')2019-04-10 14:46:57.906000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:47:12.194000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:47:32.668000
+(1064, '1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'74."\',\'19849027\',\'152\',\'15\',\'10\',\'10\',\'2019-04-10 14:49:27.800000\')\' at line 1', '42000')2019-04-10 14:49:27.800000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sLab','people','https://www.zhihu.com/people/5d2a522a5b1c2496d6b7248cc2c36c4c','' at line 1", '42000')2019-04-10 14:51:18.239000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:53:01.643000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\uff0c\\u5317\\u7eac10\\u00b027'\\uff09\\uff0c\\u5357\\u81f3\\u5384\\u52a0\\u52d2\\u65af\\u8' at line 1", '42000')2019-04-10 14:54:20.326000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Soon','people','https://www.zhihu.com/people/b302a484140b1d052c8cb7676fdfab62','' at line 1", '42000')2019-04-10 14:55:25.053000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EST\\u97f3\\u4e50\\u4ee3\\u8868\\u4f5c\\u54c1\\u300a\\u5e9a\\u5fc3\\u300b\\u3001\\u300a\\u5bd' at line 1", '42000')2019-04-10 14:55:55.526000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:56:38.059000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:57:36.164000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 14:59:58.158000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:00:50.004000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:00:58.036000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\u2014112\\u00b004'\\uff0c\\u5317\\u7eac34\\u00b0 35'\\u2014\\u007f35\\u00b049'\\u4e4b\\u9' at line 1", '42000')2019-04-10 15:01:02.088000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:06:18.622000
+(MaxRetryError("HTTPSConnectionPool(host='www.zhihu.com', port=443): Max retries exceeded with url: /topic/19887708/hot (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response')))"),)2019-04-10 15:17:43.635000
+('çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/wang-yan-yun-36/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 å¤±è´¥ (MaxRetryError("HTTPSConnectionPool(host=\'www.zhihu.com\', port=443): Max retries exceeded with url: /api/v4/members/wang-yan-yun-36/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 (Caused by ProxyError(\'Cannot connect to proxy.\', RemoteDisconnected(\'Remote end closed connection without response\')))"),)',)2019-04-10 15:20:31.953000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's rights\\uff1bwomen's liberation\\uff09\\u53c8\\u8bd1\\u5973\\u6027\\u8fd0\\u52a8\\uff0c' at line 1", '42000')2019-04-10 15:21:19.825000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:22:09.608000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:25:08.129000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:28:31.923000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association\\uff1aRMA\\uff09\\uff0c\\u53ea\\u670917\\u540d\\u6210\\u5458\\uff0c\\u4ee3\\u88' at line 1", '42000')2019-04-10 15:29:04.389000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association\\uff1aRMA\\uff09\\uff0c\\u53ea\\u670917\\u540d\\u6210\\u5458\\uff0c\\u4ee3\\u88' at line 1", '42000')2019-04-10 15:30:55.867000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:34:15.134000
+('list index out of range',)2019-04-10 15:35:42.512000
+('name',)2019-04-10 15:35:42.513000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u','people','https://www.zhihu.com/people/abe8a77399ba2349a1e54b3fafdebe18','sse' at line 1", '42000')2019-04-10 15:37:31.025000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'star-taker')\\u661f\\u76d8\\uff0c\\u662f\\u53e4\\u4ee3\\u5929\\u6587\\u5b66\\u5bb6\\uff0c\\u' at line 1", '42000')2019-04-10 15:38:51.980000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:39:03.772000
+('list index out of range',)2019-04-10 15:39:08.577000
+('name',)2019-04-10 15:39:08.578000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:39:30.827000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'False','False','å£è¢‹48','people','https://www.zhihu.com/people/5533939fb010f38' at line 1", '42000')2019-04-10 15:39:59.344000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:41:04.416000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/wencece/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=100 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 15:41:35.356000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:41:54.483000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:42:21.906000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/wuweilaoshi/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=20 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 15:42:27.035000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'anyinghao','people','https://www.zhihu.com/people/2469cd20794d4ad321ece5c1423548' at line 1", '42000')2019-04-10 15:46:21.861000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:46:29.013000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association\\uff1aRMA\\uff09\\uff0c\\u53ea\\u670917\\u540d\\u6210\\u5458\\uff0c\\u4ee3\\u88' at line 1", '42000')2019-04-10 15:48:43.062000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:50:50.239000
+(1064, '1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s genome at a single time. via Whole genome sequencing "\',\'19628796\',\'1531\',\'55\'\' at line 1', '42000')2019-04-10 15:56:14.751000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:56:52.189000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 15:59:10.981000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association\\uff1aRMA\\uff09\\uff0c\\u53ea\\u670917\\u540d\\u6210\\u5458\\uff0c\\u4ee3\\u88' at line 1", '42000')2019-04-10 16:00:46.456000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association\\uff1aRMA\\uff09\\uff0c\\u53ea\\u670917\\u540d\\u6210\\u5458\\uff0c\\u4ee3\\u88' at line 1", '42000')2019-04-10 16:01:13.510000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'False','False','otokonokorrr','people','https://www.zhihu.com/people/80b03ddf10d' at line 1", '42000')2019-04-10 16:01:41.038000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association\\uff1aRMA\\uff09\\uff0c\\u53ea\\u670917\\u540d\\u6210\\u5458\\uff0c\\u4ee3\\u88' at line 1", '42000')2019-04-10 16:01:50.372000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:02:17.122000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:03:41.865000
+('list index out of range',)2019-04-10 16:05:07.561000
+('name',)2019-04-10 16:05:07.563000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Mark','people','https://www.zhihu.com/people/90fe3081fd640216e601980add1166e1','' at line 1", '42000')2019-04-10 16:06:00.897000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:06:32.699000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'è¾¾å°”æ–‡','people','https://www.zhihu.com/people/86064f0f48c8b6a704336057821466' at line 1", '42000')2019-04-10 16:06:48.763000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:07:52.263000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:09:48.533000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:13:36.059000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/zhao-lao-jie/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=40 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 16:15:06.863000
+('list index out of range',)2019-04-10 16:18:54.604000
+('name',)2019-04-10 16:18:54.604000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:20:49.257000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:21:49.938000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Republic of China\\uff0c\\u7f29\\u5199\\u4e3aMOT\\u3002\\u4ea4\\u901a\\u8fd0\\u8f93\\u90' at line 1", '42000')2019-04-10 16:22:07.283000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:25:55.039000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/qmhk/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=60 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 16:27:17.311000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association\\uff1aRMA\\uff09\\uff0c\\u53ea\\u670917\\u540d\\u6210\\u5458\\uff0c\\u4ee3\\u88' at line 1", '42000')2019-04-10 16:27:23.509000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:29:25.622000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(x0)\\u6216df(x0)/dx\\u3002\\u5bfc\\u6570\\u662f\\u51fd\\u6570\\u7684\\u5c40\\u90e8\\u6027\\' at line 1", '42000')2019-04-10 16:29:47.930000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:30:08.857000
+('list index out of range',)2019-04-10 16:30:54.629000
+('name',)2019-04-10 16:30:54.630000
+(1064, '1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s meaning to the study of abstract formalisms such as typed \\u03bb-calculi."\',\'1\' at line 1', '42000')2019-04-10 16:35:37.226000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:36:19.678000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:37:35.037000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Neill\\uff09\\u9996\\u6b21\\u63d0\\u51fa\\u201c\\u91d1\\u7816\\u56db\\u56fd\\u201d\\u8fd9\\u4' at line 1", '42000')2019-04-10 16:39:27.536000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Neill\\uff09\\u9996\\u6b21\\u63d0\\u51fa\\u201c\\u91d1\\u7816\\u56db\\u56fd\\u201d\\u8fd9\\u4' at line 1", '42000')2019-04-10 16:42:07.227000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aime','people','https://www.zhihu.com/people/6de20667676bd23ec10cc826f22114ee','' at line 1", '42000')2019-04-10 16:42:10.012000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sHeir','people','https://www.zhihu.com/people/945c3620047e83407466d1500702c807',' at line 1", '42000')2019-04-10 16:42:51.975000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:42:54.891000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:44:20.054000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:46:04.109000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\\uff0c\\u5317\\u7eac26\\u00b086'\\uff0c\\u603b\\u9762\\u79ef2.06\\u4e07\\u5e73\\u65b9\\u516' at line 1", '42000')2019-04-10 16:48:33.405000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:49:46.844000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ris sa khul\\uff09\\uff0c\\u662f\\u4e2d\\u534e\\u4eba\\u6c11\\u5171\\u548c\\u56fd\\u897f\\u8' at line 1", '42000')2019-04-10 16:50:28.683000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sé›ªç³•','people','https://www.zhihu.com/people/d6ab2f4efe145ba7db1bc850e652a8a0' at line 1", '42000')2019-04-10 16:50:39.802000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:51:38.714000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Neill\\uff09\\u9996\\u6b21\\u63d0\\u51fa\\u201c\\u91d1\\u7816\\u56db\\u56fd\\u201d\\u8fd9\\u4' at line 1", '42000')2019-04-10 16:54:28.762000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:56:17.868000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:56:58.019000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Dady','people','https://www.zhihu.com/people/93b7e22ba1a16322ae10960e52f62892','' at line 1", '42000')2019-04-10 16:57:48.994000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 16:57:49.447000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:01:17.608000
+(1064, '1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s impossibility theoremï¼‰\',\'https://www.zhihu.com/topic/20018904\',\'""\',\'1960577\' at line 1', '42000')2019-04-10 17:02:34.992000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:03:34.004000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:04:19.136000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:04:24.076000
+(1064, '1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s genome at a single time. via Whole genome sequencing "\',\'19628796\',\'1531\',\'55\'\' at line 1', '42000')2019-04-10 17:06:02.902000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:07:33.613000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(x0)\\u6216df(x0)/dx\\u3002\\u5bfc\\u6570\\u662f\\u51fd\\u6570\\u7684\\u5c40\\u90e8\\u6027\\' at line 1", '42000')2019-04-10 17:12:35.094000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:12:58.648000
+('list index out of range',)2019-04-10 17:13:20.336000
+('name',)2019-04-10 17:13:20.337000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:15:04.613000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'star-taker')\\u661f\\u76d8\\uff0c\\u662f\\u53e4\\u4ee3\\u5929\\u6587\\u5b66\\u5bb6\\uff0c\\u' at line 1", '42000')2019-04-10 17:15:35.900000
+('list index out of range',)2019-04-10 17:15:56.141000
+('name',)2019-04-10 17:15:56.142000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's','people','https://www.zhihu.com/people/f5d55119369996646780c52369fadf84','wie' at line 1", '42000')2019-04-10 17:24:52.508000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'mPeter','people','https://www.zhihu.com/people/40a5efcb7c7028e93551f6b2141a9aac'' at line 1", '42000')2019-04-10 17:27:00.945000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:28:14.700000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:28:48.569000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Association\\uff1aRMA\\uff09\\uff0c\\u53ea\\u670917\\u540d\\u6210\\u5458\\uff0c\\u4ee3\\u88' at line 1", '42000')2019-04-10 17:29:06.501000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DAN','people','https://www.zhihu.com/people/eaea83ff467a1b366900b641b678aeea','z' at line 1", '42000')2019-04-10 17:29:46.894000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:29:56.008000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:30:10.927000
+('list index out of range',)2019-04-10 17:38:14.248000
+('name',)2019-04-10 17:38:14.249000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Bank Of China\\uff0c\\u82f1\\u6587\\u7b80\\u79f0PBOC\\uff09\\uff0c\\u7b80\\u79f0\\u592e\\' at line 1", '42000')2019-04-10 17:40:05.544000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EST\\u97f3\\u4e50\\u4ee3\\u8868\\u4f5c\\u54c1\\u300a\\u5e9a\\u5fc3\\u300b\\u3001\\u300a\\u5bd' at line 1", '42000')2019-04-10 17:42:57.414000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Republic of China\\uff0c\\u7f29\\u5199\\u4e3aMOT\\u3002\\u4ea4\\u901a\\u8fd0\\u8f93\\u90' at line 1", '42000')2019-04-10 17:50:31.976000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:54:08.417000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 17:55:06.557000
+('Expecting value: line 1 column 1 (char 0)',)2019-04-10 18:00:25.859000
+('Expecting value: line 1 column 1 (char 0)',)2019-04-10 18:00:34.746000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:02:49.032000
+('list index out of range',)2019-04-10 18:03:46.051000
+('name',)2019-04-10 18:03:46.051000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:07:56.302000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:14:02.758000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:15:18.598000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:15:28.876000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:16:27.404000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's studies\\uff08\\u5973\\u5b66\\uff09\\uff0c\\u65e2\\u662f\\u5987\\u5973\\u8fd0\\u52a8\\u768' at line 1", '42000')2019-04-10 18:23:21.006000
+(MaxRetryError("HTTPSConnectionPool(host='www.zhihu.com', port=443): Max retries exceeded with url: /topic/19776749/organize/entire?child=&parent=19587292 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response')))"),)2019-04-10 18:24:35.473000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:25:39.819000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/louis-liu-45-25/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 18:26:56.915000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/findD/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=20 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 18:27:22.258000
+(MaxRetryError("HTTPSConnectionPool(host='www.zhihu.com', port=443): Max retries exceeded with url: /topic/19776749/organize/entire?child=&parent=19655008 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response')))"),)2019-04-10 18:27:44.725000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:27:45.729000
+(MaxRetryError('HTTPSConnectionPool(host=\'www.zhihu.com\', port=443): Max retries exceeded with url: /topic/19776749/organize/entire?child=&parent=19550921 (Caused by SSLError(SSLError("bad handshake: SysCallError(-1, \'Unexpected EOF\')")))'),)2019-04-10 18:27:49.729000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/cai-niu-niu-14/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=40 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 18:27:53.145000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/wang-shu-8-34/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=40 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 18:28:04.725000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/gao-shan-qing-81/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=40 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 18:30:43.828000
+('çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/hong-fei-94-73/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 å¤±è´¥ (MaxRetryError("HTTPSConnectionPool(host=\'www.zhihu.com\', port=443): Max retries exceeded with url: /api/v4/members/hong-fei-94-73/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 (Caused by ProxyError(\'Cannot connect to proxy.\', RemoteDisconnected(\'Remote end closed connection without response\')))"),)',)2019-04-10 18:31:42.049000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:32:04.438000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/camillej/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=80 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 18:32:23.197000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:34:32.872000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:38:29.747000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Agent Carter\\uff0c\\u6216\\u7b80\\u79f0\\uff1aAgent Carter\\uff09\\u662f\\u6f2b\\u5a01' at line 1", '42000')2019-04-10 18:39:23.029000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:39:46.166000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:41:05.550000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:51:43.763000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:52:53.627000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's rights\\uff1bwomen's liberation\\uff09\\u53c8\\u8bd1\\u5973\\u6027\\u8fd0\\u52a8\\uff0c' at line 1", '42000')2019-04-10 18:54:00.021000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:54:19.837000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:56:34.448000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 18:58:18.269000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/qi-yi-19-5/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 18:59:55.322000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:00:34.208000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('Invalid \\\\uXXXX escape: line 1 column 17859 (char 17858)',)",)2019-04-10 19:04:36.276000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:06:12.725000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:07:47.952000
+(1064, '1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s Encrypt\',\'https://www.zhihu.com/topic/20033329\',\'"Let\\u2019s Encrypt is a free\' at line 1', '42000')2019-04-10 19:11:06.221000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:11:56.460000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:12:57.922000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:15:19.594000
+(MaxRetryError("HTTPSConnectionPool(host='www.zhihu.com', port=443): Max retries exceeded with url: /topic/19776749/organize/entire?child=&parent=19554927 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response')))"),)2019-04-10 19:23:04.565000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:24:04.596000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:24:53.594000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:25:13.016000
+('list index out of range',)2019-04-10 19:26:28.298000
+('name',)2019-04-10 19:26:28.299000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:30:07.778000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:31:41.963000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:32:07.057000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's magazine\\u300b\\u5171\\u540c\\u6253\\u9020\\u7684\\u8de8\\u5a92\\u4f53\\u5076\\u50cf\\u4f' at line 1", '42000')2019-04-10 19:32:13.729000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/bee-mad-26/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 19:32:29.056000
+('list index out of range',)2019-04-10 19:32:30.290000
+('name',)2019-04-10 19:32:30.291000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:32:41.528000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Factory\\u3002\\u6210\\u5458\\u7531kz\\u548c\\u304b\\u3058\\u3085\\u304dP\\u4e8c\\u4eba\\u' at line 1", '42000')2019-04-10 19:33:11.556000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sait\\u04d9s]\\u201d\\u53d6\\u81ea\\u201cCocytus[k\\u04d9u'sait\\u04d9s]\\u201d\\u2014\\u2' at line 1", '42000')2019-04-10 19:33:26.365000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's magazine\\u300b\\u5171\\u540c\\u6253\\u9020\\u7684\\u8de8\\u5a92\\u4f53\\u5076\\u50cf\\u4f' at line 1", '42000')2019-04-10 19:33:33.502000
+(1064, '1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'n)\',\'https://www.zhihu.com/topic/20229911\',\'"\\u672c\\u540d\\u4e2d\\u6797\\u82bd\\u4f9\' at line 1', '42000')2019-04-10 19:33:34.587000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's magazine\\u300b\\u5171\\u540c\\u6253\\u9020\\u7684\\u8de8\\u5a92\\u4f53\\u5076\\u50cf\\u4f' at line 1", '42000')2019-04-10 19:33:36.168000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:35:30.369000
+(1064, '1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s\\u6d3b\\u51fa\\u8da3\\u5e7f\\u544a\\u2026"\',\'20072209\',\'2\',\'2\',\'2\',\'2\',\'2019-04-10 1\' at line 1', '42000')2019-04-10 19:39:22.341000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's magazine\\u57282010\\u5e74\\u5171\\u540c\\u5408\\u4f5c\\u63a8\\u51fa\\u7684\\u8bfb\\u8005' at line 1", '42000')2019-04-10 19:40:26.602000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:40:44.037000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:41:33.886000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:41:34.908000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Nikolaou','people','https://www.zhihu.com/people/ea1a435d6b84958adf054f8ca58eab5' at line 1", '42000')2019-04-10 19:43:25.311000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:43:49.570000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:47:10.269000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:48:04.635000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'sor','people','https://www.zhihu.com/people/9dbc4df85a8e895e621981d160216600','1' at line 1", '42000')2019-04-10 19:48:05.615000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:49:15.311000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:50:20.425000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EST\\u97f3\\u4e50\\u4ee3\\u8868\\u4f5c\\u54c1\\u300a\\u5e9a\\u5fc3\\u300b\\u3001\\u300a\\u5bd' at line 1", '42000')2019-04-10 19:50:33.863000
+(1064, '1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'s\\u6d3b\\u51fa\\u8da3\\u5e7f\\u544a\\u2026"\',\'20072209\',\'2\',\'2\',\'2\',\'2\',\'2019-04-10 1\' at line 1', '42000')2019-04-10 19:50:45.145000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'EST\\u97f3\\u4e50\\u4ee3\\u8868\\u4f5c\\u54c1\\u300a\\u5e9a\\u5fc3\\u300b\\u3001\\u300a\\u5bd' at line 1", '42000')2019-04-10 19:50:52.488000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's\\uff09\\u662f\\u5168\\u7403\\u5927\\u578b\\u8de8\\u56fd\\u8fde\\u9501\\u9910\\u5385\\uff0c1' at line 1", '42000')2019-04-10 19:51:54.224000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Associates, Inc.\\uff08DAI\\uff09\\u6301\\u6709\\uff0c\\u662f\\u4e16\\u754c\\u4e0a\\u626' at line 1", '42000')2019-04-10 19:52:02.107000
+("çº¿ç¨‹ Thread-User1 ä¸‹è½½urlï¼šhttps://www.zhihu.com/api/v4/members/vixerunt-2/followees?include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset=0 å¤±è´¥ ([('SSL routines', 'ssl3_read_bytes', 'sslv3 alert bad record mac')],)",)2019-04-10 19:52:36.172000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:54:01.402000
+(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cgr','people','https://www.zhihu.com/people/2f6cbfea81351165b4000fdf84079934','c' at line 1", '42000')2019-04-10 19:54:18.809000
+("çº¿ç¨‹ Thread-User1 è§£æç”¨æˆ·åˆ—è¡¨å¤±è´¥ ('the JSON object must be str, bytes or bytearray, not NoneType',)",)2019-04-10 19:55:12.202000

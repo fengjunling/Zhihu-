@@ -22,8 +22,6 @@ from PIL import Image
 
 
 class ZhihuAccount(object):
-    # 连接数据库
-    con = db.DbUtil.connect()
 
     def __init__(self, username: str = None, password: str = None):
         self.username = username
