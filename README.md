@@ -1,6 +1,6 @@
 # 知乎爬虫系统进度
 系统分为知乎登陆，话题爬取，用户爬取三部分<br>
-前两部分已完成 ，用户爬取未实现<br>
+系统基本完成 可正常爬取话题 用户<br>
 数据库包括：<br>
 Topic(id,token,name,url,desc,parent,followers...10)<br>
 User(id,answer_count,name,articles_count,gender,followers...17)<br>
