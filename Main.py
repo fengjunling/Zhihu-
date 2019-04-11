@@ -30,7 +30,7 @@ def request_topic():
     topic_list = []
 
     for i in range(10):
-        t = threading.Thread(target=start_request_topic, name=('Thread-Topic %s' % (i)))
+        t = threading.Thread(target=start_request_topic, name=('Thread-Topic %s' % (str(i))))
         t.start()
         topic_list.append(t)
 
@@ -51,7 +51,7 @@ def start_request_topic():
             print("线程 %s 请求进度...%s \n" % (threading.current_thread().name, len(TopicModel.Topic.urls)))
         except Exception as e:
             x_lock.acquire()
-            with open('./log.txt', 'a', encoding='utf-8') as f:
+            with open('./logs/'+time.strftime("%Y-%m-%d", time.localtime())+'.txt', 'a', encoding='utf-8') as f:
                 f.write(threading.current_thread().name + str(e.args) + str(datetime.datetime.now()) + '\r\n')
             x_lock.release()
 
@@ -63,7 +63,7 @@ def request_user():
     user_list = []
 
     for i in range(10):
-        t = threading.Thread(target=start_request_user, name=('Thread-User %s' + (i)))
+        t = threading.Thread(target=start_request_user, name=('Thread-User %s' % (str(i))))
         t.start()
         user_list.append(t)
 
@@ -82,10 +82,10 @@ def start_request_user():
             if url is not None:
                 response = user.download(url)
                 user.parse(response)
-            print('线程 %s 正在请求...' % (threading.current_thread().name,))
+            print('线程 %s 正在请求... %s' % (threading.current_thread().name))
         except Exception as e:
             x_lock.acquire()
-            with open('./log.txt', 'a', encoding='utf-8') as f:
+            with open('./logs/'+time.strftime("%Y-%m-%d", time.localtime())+'.txt', 'a', encoding='utf-8') as f:
                 f.write(threading.current_thread().name + str(e.args) + str(datetime.datetime.now()) + '\r\n')
             x_lock.release()
 
@@ -102,6 +102,8 @@ if __name__ == '__main__':
 
     if is_login:
 
+        # resp = user.get_user_home('guo-jia-32')
+        # user.parse_home(resp)
         t1 = threading.Thread(target=request_topic, name='Thread-Topic')
         t2 = threading.Thread(target=request_user, name='Thread-User')
 

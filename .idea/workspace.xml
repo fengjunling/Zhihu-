@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6109cc87-6ed0-4779-bca6-32c9ddd86531" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MyThread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopicModel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserModel.py" afterDir="false" />
+    <list default="true" id="6109cc87-6ed0-4779-bca6-32c9ddd86531" name="Default Changelist" comment="完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Topic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZhihuLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZhihuLogin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/captcha.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/captcha.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopicModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/TopicModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserModel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cookies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cookies.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
     </list>
@@ -27,15 +21,16 @@
     <SUITE FILE_PATH="coverage/zhihu$zhihu_login.coverage" NAME="zhihu-login Coverage Results" MODIFIED="1553739921620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
     <SUITE FILE_PATH="coverage/Zhihu_$Topic.coverage" NAME="Topic Coverage Results" MODIFIED="1554801629525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zhihu$zhihu.coverage" NAME="zhihu Coverage Results" MODIFIED="1553783923173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spiders" />
-    <SUITE FILE_PATH="coverage/Zhihu_$Main.coverage" NAME="Main Coverage Results" MODIFIED="1554907385759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Zhihu_$TopicModel.coverage" NAME="TopicModel Coverage Results" MODIFIED="1554951212257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Zhihu_$Main.coverage" NAME="Main Coverage Results" MODIFIED="1554995179055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZhihuLogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="57" column="47" lean-forward="true" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+            <state relative-caret-position="230">
+              <caret line="134" column="39" lean-forward="true" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
               <folding>
                 <element signature="e#24#40#0" expanded="true" />
                 <element signature="e#4626#4904#0" />
@@ -44,15 +39,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="155">
+              <caret line="87" column="21" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <element signature="e#1849#2655#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="295">
+                <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -60,7 +66,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyThread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="-861">
               <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
@@ -69,25 +75,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UserModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="95" column="118" lean-forward="true" selection-start-line="93" selection-start-column="8" selection-end-line="95" selection-end-column="118" />
+            <state relative-caret-position="155">
+              <caret line="69" column="57" lean-forward="true" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/User2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#5075#7626#0" />
               </folding>
             </state>
           </provider>
@@ -96,8 +91,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="752" lean-forward="true" selection-start-line="752" selection-end-line="752" />
+            <state relative-caret-position="530">
+              <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Anaconda/Lib/site-packages/bs4/element.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="1007" column="42" selection-start-line="1007" selection-start-column="42" selection-end-line="1007" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -105,12 +109,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TopicModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="125" column="35" lean-forward="true" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
+            <state relative-caret-position="155">
+              <caret line="84" column="21" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <element signature="e#899#2240#0" />
-                <element signature="e#2151#2365#0" />
+                <element signature="e#4977#5621#0" />
               </folding>
             </state>
           </provider>
@@ -130,7 +133,9 @@
       <find>exp</find>
       <find>User</find>
       <find>Topic</find>
+      <find>svg</find>
       <find>print</find>
+      <find>open</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,25 +159,25 @@
         <option value="$PROJECT_DIR$/spiders/ZhihuLogin.py" />
         <option value="$PROJECT_DIR$/spiders/Main.py" />
         <option value="$PROJECT_DIR$/spiders/requirements.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ZhihuLogin.py" />
         <option value="$PROJECT_DIR$/db.py" />
         <option value="$PROJECT_DIR$/User2.py" />
         <option value="$PROJECT_DIR$/User.py" />
         <option value="$PROJECT_DIR$/Topic.py" />
-        <option value="$PROJECT_DIR$/log.txt" />
         <option value="$PROJECT_DIR$/MyThread.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/log.txt" />
         <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/UserModel.py" />
         <option value="$PROJECT_DIR$/TopicModel.py" />
+        <option value="$PROJECT_DIR$/UserModel.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-154" />
-    <option name="y" value="30" />
+    <option name="x" value="789" />
+    <option name="y" value="70" />
     <option name="width" value="1070" />
-    <option name="height" value="1000" />
+    <option name="height" value="727" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -264,6 +269,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TopicModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="zhihu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TopicModel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ZhihuLogin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="zhihu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,28 +305,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="D:\zhihu_project\Zhihu-\ZhihuLogin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="zhihu-login" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="zhihu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\zhihu_project\zhihu\zhihu\spiders\ZhihuLogin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,10 +338,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.TopicModel" />
         <item itemvalue="Python.Topic" />
         <item itemvalue="Python.ZhihuLogin" />
         <item itemvalue="Python.zhihu" />
-        <item itemvalue="Python.zhihu-login" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +356,7 @@
       <option name="presentableId" value="Default" />
       <updated>1553736124941</updated>
       <workItem from="1553736126535" duration="67620000" />
-      <workItem from="1553932935624" duration="97397000" />
+      <workItem from="1553932935624" duration="128371000" />
     </task>
     <task id="LOCAL-00001" summary="添加爬取用户模块">
       <created>1554215534163</created>
@@ -374,17 +379,32 @@
       <option name="project" value="LOCAL" />
       <updated>1554216699768</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="知乎2.0--多线程 用户模块完成">
+      <created>1554907531696</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554907531696</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更新readme">
+      <created>1554907660631</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1554907660631</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165017000" />
+    <option name="totallyTimeSpent" value="195991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12100213" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.117803834" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32900432" />
@@ -393,8 +413,8 @@
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32900432" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.552546" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" weight="0.15817985" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.30769232" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49946696" visible="true" weight="0.40411702" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -436,7 +456,82 @@
     <MESSAGE value="添加爬取用户模块" />
     <MESSAGE value="readme文件更新" />
     <MESSAGE value="scrapy框架文件清理 readme更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="scrapy框架文件清理 readme更新" />
+    <MESSAGE value="知乎2.0--多线程 用户模块完成" />
+    <MESSAGE value="更新readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新readme" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Main.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UserModel.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UserModel.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Main.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UserModel.py</url>
+          <line>182</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UserModel.py</url>
+          <line>210</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UserModel.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UserModel.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UserModel.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UserModel.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UserModel.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Main.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/Anaconda/Lib/site-packages/execjs/_external_runtime.py">
@@ -482,13 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/bs4/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45840">
-          <caret line="1532" column="30" selection-start-line="1532" selection-start-column="30" selection-end-line="1532" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -590,16 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Anaconda/Lib/site-packages/mysql/connector/connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-356">
@@ -656,14 +734,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/requests/adapters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="515" selection-start-line="515" selection-end-line="515" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="295">
+            <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ZhihuLogin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="57" column="47" lean-forward="true" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+        <state relative-caret-position="230">
+          <caret line="134" column="39" lean-forward="true" selection-start-line="134" selection-start-column="39" selection-end-line="134" selection-end-column="39" />
           <folding>
             <element signature="e#24#40#0" expanded="true" />
             <element signature="e#4626#4904#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyThread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-861">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1007" column="42" selection-start-line="1007" selection-start-column="42" selection-end-line="1007" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -677,34 +789,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/requests/adapters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="515" selection-start-line="515" selection-end-line="515" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="752" lean-forward="true" selection-start-line="752" selection-end-line="752" />
+        <state relative-caret-position="530">
+          <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyThread.py">
+    <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserModel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="95" column="118" lean-forward="true" selection-start-line="93" selection-start-column="8" selection-end-line="95" selection-end-column="118" />
+        <state relative-caret-position="155">
+          <caret line="87" column="21" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -713,23 +808,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TopicModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="125" column="35" lean-forward="true" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
+        <state relative-caret-position="155">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#899#2240#0" />
-            <element signature="e#2151#2365#0" />
+            <element signature="e#4977#5621#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
+    <entry file="file://$PROJECT_DIR$/UserModel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="155">
+          <caret line="69" column="57" lean-forward="true" selection-start-line="69" selection-start-column="57" selection-end-line="69" selection-end-column="57" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#1849#2655#0" />
+            <element signature="e#5075#7626#0" />
           </folding>
         </state>
       </provider>

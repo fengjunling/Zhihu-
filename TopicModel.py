@@ -1,5 +1,6 @@
 import datetime
 import threading
+import time
 
 from bs4 import BeautifulSoup
 
@@ -21,6 +22,8 @@ class Topic(object):
     # 话题队列
     urls = []
     topic_tokens = set()
+    # 错误信息 捕获后等待重新请求
+    error_tokens = set()
     # 根话题
     URL_TEMPLATE = "https://www.zhihu.com/topic/19776749/organize/entire"
     QUERY_PARAMS = "?child={0}&parent={1}"
@@ -62,11 +65,12 @@ class Topic(object):
                             data['parent'] = parent
                             try:
                                 Main.user_lock.acquire()
+                                print('%s 正在保存话题 %s' % (threading.current_thread().name, x[1]))
                                 self.save(data)
                                 Main.user_lock.release()
                             except Exception as e:
                                 Main.x_lock.acquire()
-                                with open('./log.txt', 'a', encoding='utf-8') as f:
+                                with open('./logs/'+time.strftime("%Y-%m-%d", time.localtime())+'.txt', 'a', encoding='utf-8') as f:
                                     f.write(threading.current_thread().name + str(e.args) + str(
                                         datetime.datetime.now()) + '\r\n')
                                 Main.user_lock.release()
@@ -78,10 +82,10 @@ class Topic(object):
                     pass
         except Exception as e:
             Main.x_lock.acquire()
-            with open('./log.txt', 'a', encoding='utf-8') as f:
+            with open('./logs/'+time.strftime("%Y-%m-%d", time.localtime())+'.txt', 'a', encoding='utf-8') as f:
                 f.write(threading.current_thread().name + str(e.args) + str(datetime.datetime.now()) + '\r\n')
             Main.x_lock.release()
-            print('topic parse failed: %s' % (e.args,))
+            # print('topic parse failed: %s' % (e.args,))
 
     # 话题详情页
     def request_infos(self, token=None):
@@ -100,13 +104,11 @@ class Topic(object):
         try:
             # 获取followers
             res2 = soup.select('div.ContentLayout-sideColumn div.Card button strong')
-            # print(token)
-            # print(res2)
             infos['followers'] = res2[0].attrs['title']
         except Exception as e:
-            with open('./log.txt', 'a', encoding='utf-8') as f:
+            with open('./logs/'+time.strftime("%Y-%m-%d", time.localtime())+'.txt', 'a', encoding='utf-8') as f:
                 f.write(threading.current_thread().name + str(e.args) + str(datetime.datetime.now()) + '\r\n')
-            print('topic_info parse failed: %s' % (e.args,))
+            # print('topic_info parse failed: %s' % (e.args,))
 
         for n in res1:
             infos[n.attrs['itemprop']] = n.attrs['content']
@@ -145,7 +147,7 @@ class Topic(object):
             data['token'],
             data['name'],
             data['url'],
-            str(data['description']),
+            json.dumps(data['description']),
             data['parent'],
             data[
                 'followers'],
