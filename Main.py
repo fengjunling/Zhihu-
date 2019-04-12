@@ -23,32 +23,6 @@ user_lock = threading.Lock()
 session_lock = threading.Lock()
 
 
-class TopicThread(threading.Thread):  # 继承父类threading.Thread
-    def __init__(self, threadID, name):
-        threading.Thread.__init__(self)
-        self.threadID = threadID
-        self.name = name
-
-    # 把要执行的代码写到run函数里面 线程在创建后会直接运行run函数
-    def run(self):
-        print("Starting " + self.name)
-        start_request_topic()
-        print("Exiting " + self.name)
-
-
-class UserThread(threading.Thread):  # 继承父类threading.Thread
-    def __init__(self, threadID, name):
-        threading.Thread.__init__(self)
-        self.threadID = threadID
-        self.name = name
-
-    # 把要执行的代码写到run函数里面 线程在创建后会直接运行run函数
-    def run(self):
-        print("Starting " + self.name)
-        start_request_user()
-        print("Exiting " + self.name)
-
-
 def request_topic():
     start_time = time.time()
     TopicModel.Topic.urls.append(TopicModel.Topic.URL_TEMPLATE)
@@ -56,7 +30,7 @@ def request_topic():
     topic_list = []
 
     for i in range(10):
-        t = TopicThread(i, ('Thread-Topic %s' % (str(i))))
+        t = threading.Thread(target=start_request_topic, name=('Thread-Topic %s' % (str(i))))
         t.start()
         topic_list.append(t)
 
@@ -89,7 +63,7 @@ def request_user():
     user_list = []
 
     for i in range(10):
-        t = UserThread(i, ('Thread-User %s' % (str(i))))
+        t = threading.Thread(target=start_request_user, name=('Thread-User %s' % (str(i))))
         t.start()
         user_list.append(t)
 
