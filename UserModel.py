@@ -66,7 +66,7 @@ class User(object):
                         Main.user_lock.release()
                     except Exception as e:
                         Main.x_lock.acquire()
-                        with open('./logs/' + time.strftime("%Y-%m-%d", time.localtime()) + '.txt', 'a',
+                        with open('./logs/logs/' + time.strftime("%Y-%m-%d", time.localtime()) + '.txt', 'a',
                                   encoding='utf-8') as f:
                             f.write(
                                 threading.current_thread().name + str(e.args) + str(datetime.datetime.now()) + '\r\n')
@@ -130,7 +130,8 @@ class User(object):
         self.session.cookies.save()
         if response.status_code == 200:
             return response.text
-        raise Exception('线程 %s 下载用户主页：%s 失败 响应状态码 %s' % (threading.current_thread().name, url, response.status_code))
+        raise Exception(
+            '线程 %s 下载用户主页：%s 失败 响应状态码 %s' % (threading.current_thread().name, url, response.status_code))
 
     def parse_home(self, text):
         soup = BeautifulSoup(text, 'lxml')
@@ -184,20 +185,17 @@ class User(object):
 
     def get_new_url(self):
         global flag
-        try:
-            if User.new_url_tokens.__len__() <= 0:
-                flag = True
-            if User.next_urls.__len__() > 0 and flag == True:
-                token_offset = User.next_urls.pop(0)
-                url = User.URL_TEMPLATE.format(token_offset[0]) + User.QUERY_PARAMS.format(token_offset[1])
-            elif User.new_url_tokens.__len__() > 0:
-                token = User.new_url_tokens.pop()
-                User.old_url_tokens.add(token)
-                url = User.URL_TEMPLATE.format(token) + User.QUERY_PARAMS.format('0')
-            else:
-                return None
-        except Exception as e:
-            raise Exception('get_new_url warning：%s %s ' % (e.args, url))
+        if User.new_url_tokens.__len__() <= 0:
+            flag = True
+        if User.next_urls.__len__() > 0 and flag == True:
+            token_offset = User.next_urls.pop(0)
+            url = User.URL_TEMPLATE.format(token_offset[0]) + User.QUERY_PARAMS.format(token_offset[1])
+        elif User.new_url_tokens.__len__() > 0:
+            token = User.new_url_tokens.pop()
+            User.old_url_tokens.add(token)
+            url = User.URL_TEMPLATE.format(token) + User.QUERY_PARAMS.format('0')
+        else:
+            return None
         # print(url)
         flag = not flag
         return url

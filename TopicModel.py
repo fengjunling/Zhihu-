@@ -70,7 +70,7 @@ class Topic(object):
                                 Main.user_lock.release()
                             except Exception as e:
                                 Main.x_lock.acquire()
-                                with open('./logs/'+time.strftime("%Y-%m-%d", time.localtime())+'.txt', 'a', encoding='utf-8') as f:
+                                with open('./logs/logs/'+time.strftime("%Y-%m-%d", time.localtime())+'.txt', 'a', encoding='utf-8') as f:
                                     f.write(threading.current_thread().name + str(e.args) + str(
                                         datetime.datetime.now()) + '\r\n')
                                 Main.user_lock.release()
@@ -82,7 +82,7 @@ class Topic(object):
                     pass
         except Exception as e:
             Main.x_lock.acquire()
-            with open('./logs/'+time.strftime("%Y-%m-%d", time.localtime())+'.txt', 'a', encoding='utf-8') as f:
+            with open('./logs/logs/'+time.strftime("%Y-%m-%d", time.localtime())+'.txt', 'a', encoding='utf-8') as f:
                 f.write(threading.current_thread().name + str(e.args) + str(datetime.datetime.now()) + '\r\n')
             Main.x_lock.release()
             # print('topic parse failed: %s' % (e.args,))
@@ -106,7 +106,7 @@ class Topic(object):
             res2 = soup.select('div.ContentLayout-sideColumn div.Card button strong')
             infos['followers'] = res2[0].attrs['title']
         except Exception as e:
-            with open('./logs/'+time.strftime("%Y-%m-%d", time.localtime())+'.txt', 'a', encoding='utf-8') as f:
+            with open('./logs/logs/'+time.strftime("%Y-%m-%d", time.localtime())+'.txt', 'a', encoding='utf-8') as f:
                 f.write(threading.current_thread().name + str(e.args) + str(datetime.datetime.now()) + '\r\n')
             # print('topic_info parse failed: %s' % (e.args,))
 
