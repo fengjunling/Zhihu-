@@ -6,7 +6,7 @@ import Main
 from ZhihuLogin import *
 
 '''
-******未完成*****
+
 info:用户爬取与解析
 
 '''
@@ -14,34 +14,33 @@ flag = True
 
 
 class User(object):
-    # 连接数据库
-    con = db.DbUtil.connect()
-    # 请求暂存，知乎限制连续访问
-    next_urls = []
-    # 新用户
-    new_url_tokens = set()
-    # 已访问用户
-    old_url_tokens = set()
-    # 已保存用户
-    saved_users_set = set()
+    con = db.DbUtil.connect()  # 连接数据库
+    next_urls = []  # 请求暂存，知乎限制连续访问
+    new_url_tokens = set()  # 待爬取用户
+    old_url_tokens = set()  # 已爬取用户
+    saved_users_set = set()  # 已保存用户
+    URL_TEMPLATE = "https://www.zhihu.com/api/v4/members/{0}/followees"
+    QUERY_PARAMS = "?include=data%5B%2A%5D.answer_count%2Carticles_count" \
+                   "%2Cgender%2Cfollower_count%2Cis_followed%2Cis_following" \
+                   "%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset={0}"  # 获取关注用户接口
 
-    URL_TEMPLATE = "https://www.zhihu.com/api/v4/members/{0}/followees?"
-    QUERY_PARAMS = "include=data%5B%2A%5D.answer_count%2Carticles_count%2Cgender%2Cfollower_count%2Cis_followed" \
-                   "%2Cis_following%2Cbadge%5B%3F%28type%3Dbest_answerer%29%5D.topics&limit=20&offset={0}"
-
-    def __init__(self, account, domin):
+    def __init__(self, account):
         self.session = account.session
-        self.domin = domin
 
-    # 下载其他用户的url_token
     def download(self, url):
+        '''
+        下载该用户的关注用户列表
+        :param url:
+        :return:
+        '''
         if url is None:
             return None
         response = self.session.get(url)
-        self.session.cookies.save()
+        # self.session.cookies.save()
         if response.status_code == 200:
             return response.text
         else:
+            print(response.headers)
             raise Exception('线程 %s 下载url：%s 失败 响应状态码 %s' % (threading.current_thread().name, url, response.status_code))
 
     def parse(self, response):
@@ -52,8 +51,7 @@ class User(object):
             for item in json_data:
                 # 判断token是否已经请求，防止重复请求
                 if not User.old_url_tokens.__contains__(item['url_token']):
-                    if User.new_url_tokens.__len__() < 2000:
-                        User.new_url_tokens.add(item['url_token'])
+                    User.new_url_tokens.add(item['url_token'])
                 if not User.saved_users_set.__contains__(item['url_token']):
                     # https://www.zhihu.com/people/guo-jia-32/logs
                     resp = self.get_user_home(item['url_token'])
@@ -86,50 +84,17 @@ class User(object):
             else:
                 pass
         except Exception as e:
-            raise Exception('thread %s parse userlist error %s' % (threading.current_thread().name, e.args))
-
-    # 部分用户无法访问
-    # def get_user_logs(self, token):
-    #     url = 'https://www.zhihu.com/people/{0}/logs'.format(token)
-    #     if url is None:
-    #         return None
-    #     response = self.session.get(url)
-    #     self.session.cookies.save()
-    #     if response.status_code == 200:
-    #         return response.text
-    #     raise Exception('线程 %s 下载用户log：%s 失败 响应状态码 %s' % (threading.current_thread().name, url, response.status_code))
-    #
-    # def parse_logs(self, text):
-    #     soup = BeautifulSoup(text, 'lxml')
-    #     infos = {}
-    #     # 赞同数
-    #     infos['agree'] = soup.select('span.zm-profile-header-user-agree strong')[0].text
-    #     # 感谢数
-    #     infos['thanks'] = soup.select('span.zm-profile-header-user-thanks strong')[0].text
-    #     # 提问 回答 文章 收藏 公共编辑
-    #     names = ['asks', 'answers', 'articles', 'collections', 'logs']
-    #     lists = soup.select('.num')
-    #     for i in range(0, len(lists)):
-    #         infos[names[i]] = lists[i].text
-    #
-    #     if len(lists) < len(names):
-    #         for i in range(len(lists), len(names)):
-    #             infos[names[i]] = 0
-    #
-    #     # lists = soup.select('.num')
-    #     # infos['asks'] = lists[0].text
-    #     # infos['collections'] = lists[3].text
-    #     # infos['logs'] = lists[4].text
-    #     return infos
+            raise Exception('parse userlist error %s' % (e.args,))
 
     def get_user_home(self, token):
         url = 'https://www.zhihu.com/people/{0}'.format(token)
         if url is None:
             return None
         response = self.session.get(url)
-        self.session.cookies.save()
+        # self.session.cookies.save()
         if response.status_code == 200:
             return response.text
+        print(response.headers)
         raise Exception(
             '线程 %s 下载用户主页：%s 失败 响应状态码 %s' % (threading.current_thread().name, url, response.status_code))
 
@@ -160,7 +125,7 @@ class User(object):
         # 赞同
         agree = soup.find("svg", class_="Icon IconGraf-icon Icon--like")
         if agree is not None:
-            infos['agrees'] = str(agree.parent.next_sibling.next_sibling.next_sibling).replace(',', '')
+            infos['agrees'] = [str(agree.parent.next_sibling.next_sibling.next_sibling)]
         # 感谢 收藏 专业认可
         like = soup.find("svg", class_="Icon IconGraf-icon Icon--like")
         if like is not None:
@@ -180,10 +145,13 @@ class User(object):
                 infos[item] = infos[item][0].replace(',', '')
             else:
                 infos[item] = '0'
-        # print(infos)
         return infos
 
     def get_new_url(self):
+        '''
+        获取下一个用户
+        :return:
+        '''
         global flag
         if User.new_url_tokens.__len__() <= 0:
             flag = True
@@ -200,8 +168,12 @@ class User(object):
         flag = not flag
         return url
 
-    # 保存数据库
     def save(self, data):
+        '''
+        保存数据库
+        :param data:
+        :return:
+        '''
         cur = User.con.cursor()
         if len(data['badge']) > 0:
             data['badge'] = json.dumps(data['badge'])
@@ -213,11 +185,47 @@ class User(object):
             data['thanks'], data['collections'], data['renke'], data['logs'], data['badge'],
             data['follower_count'], data['gender'], data['headline'], data['is_advertiser'], data['is_org'],
             data['name'], data['type'], data['url'], data['user_type'], datetime.datetime.now())
-        # print(sql)
         cur.execute(sql)
         User.con.commit()
         cur.close()
 
-    # 关闭数据库连接
     def close(self):
+        '''
+        关闭数据库连接
+        :return:
+        '''
         User.con.close()
+
+# 部分用户无法访问
+# def get_user_logs(self, token):
+#     url = 'https://www.zhihu.com/people/{0}/logs'.format(token)
+#     if url is None:
+#         return None
+#     response = self.session.get(url)
+#     self.session.cookies.save()
+#     if response.status_code == 200:
+#         return response.text
+#     raise Exception('线程 %s 下载用户log：%s 失败 响应状态码 %s' % (threading.current_thread().name, url, response.status_code))
+#
+# def parse_logs(self, text):
+#     soup = BeautifulSoup(text, 'lxml')
+#     infos = {}
+#     # 赞同数
+#     infos['agree'] = soup.select('span.zm-profile-header-user-agree strong')[0].text
+#     # 感谢数
+#     infos['thanks'] = soup.select('span.zm-profile-header-user-thanks strong')[0].text
+#     # 提问 回答 文章 收藏 公共编辑
+#     names = ['asks', 'answers', 'articles', 'collections', 'logs']
+#     lists = soup.select('.num')
+#     for i in range(0, len(lists)):
+#         infos[names[i]] = lists[i].text
+#
+#     if len(lists) < len(names):
+#         for i in range(len(lists), len(names)):
+#             infos[names[i]] = 0
+#
+#     # lists = soup.select('.num')
+#     # infos['asks'] = lists[0].text
+#     # infos['collections'] = lists[3].text
+#     # infos['logs'] = lists[4].text
+#     return infos

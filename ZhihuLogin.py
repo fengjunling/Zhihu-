@@ -90,7 +90,7 @@ class ZhihuAccount(object):
         headers.update({
             'content-type': 'application/x-www-form-urlencoded',
             'x-zse-83': '3_1.1',
-            'x-xsrftoken': self._get_xsrf()
+            # 'x-xsrftoken': self._get_xsrf()
         })
 
         timestamp = int(round(time.time() * 1000))
@@ -152,12 +152,15 @@ class ZhihuAccount(object):
         请求验证码的 API 接口，无论是否需要验证码都需要请求一次
         如果需要验证码会返回图片的 base64 编码
         根据 lang 参数匹配验证码，需要人工输入
+        中文验证码是通过选择倒置的汉字验证的，破解起来相对来说比较困难
+        英文的验证码输入验证码内容即可，破解起来相对简单,因此使用英文验证码
         :param lang: 返回验证码的语言(en/cn)
         :return: 验证码的 POST 参数
         """
 
         headers = {
-            "authorization": "oauth c3cef7c66a1843f8b3a9e6a1e3160e20",
+            # 不加认证有时会返回missing authxxx的信息
+            # "authorization": "oauth c3cef7c66a1843f8b3a9e6a1e3160e20",
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
                           '(KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
         }
@@ -167,8 +170,7 @@ class ZhihuAccount(object):
         else:
             api = 'https://www.zhihu.com/api/v3/oauth/captcha?lang=en'
         resp = self.session.get(api, headers=headers)
-        print('resp')
-        print(resp.text)
+        # print(resp.text)
         show_captcha = re.search(r'true', resp.text)
 
         if show_captcha:
@@ -202,7 +204,6 @@ class ZhihuAccount(object):
         :return: 签名
         """
         ha = hmac.new(key='d1b964811afb40118a12068ff74a12f4'.encode('utf-8'), digestmod=hashlib.sha1)
-        # ha = hmac.new(b'd1b964811afb40118a12068ff74a12f4', digestmod=hashlib.sha1)
         grant_type = self.login_data['grant_type']
         client_id = self.login_data['client_id']
         source = self.login_data['source']
@@ -226,5 +227,5 @@ class ZhihuAccount(object):
     def _encrypt(form_data: dict):
         with open('./encrypt.js', 'r') as f:
             js = execjs.compile(f.read())
-            print(urlencode(form_data))
+            # print(urlencode(form_data))
             return js.call('Q', urlencode(form_data))

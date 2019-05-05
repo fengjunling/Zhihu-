@@ -2,6 +2,7 @@ import datetime
 import threading
 import time
 
+import requests
 from bs4 import BeautifulSoup
 
 import db
@@ -17,22 +18,21 @@ info:话题爬取与解析
 
 
 class Topic(object):
-    # 数据库连接
-    con = db.DbUtil.connect()
-    # 话题队列
+    con = db.DbUtil.connect()  # 数据库连接
     urls = []
-    topic_tokens = set()
-    # 错误信息 捕获后等待重新请求
-    error_tokens = set()
-    # 根话题
+    topic_tokens = set()  # 话题队列
+    # error_tokens = set()  #请求失败url 捕获后等待重新请求
     URL_TEMPLATE = "https://www.zhihu.com/topic/19776749/organize/entire"
-    QUERY_PARAMS = "?child={0}&parent={1}"
+    QUERY_PARAMS = "?child={0}&parent={1}"  # 根话题 初始url
 
-    def __init__(self, account, domin):
+    def __init__(self, account):
         self.session = account.session
-        self.domin = domin
 
     def get_new_url(self):
+        '''
+        获取下一个话题
+        :return:
+        '''
         url = Topic.urls.pop(0)
         if isinstance(url, list):
             url = Topic.URL_TEMPLATE + Topic.QUERY_PARAMS.format(url[0], url[1])
@@ -40,12 +40,21 @@ class Topic(object):
         return url
 
     def get_token_url(self, token):
+        '''
+        获取话题主页url
+        :param token:
+        :return:
+        '''
         url = 'https://www.zhihu.com/topic/{0}/hot'
         return url.format(token)
 
-    # 解析話題列表
     def parse_topic(self, data, parent=None):
-
+        '''
+        解析話題列表
+        :param data:
+        :param parent:
+        :return:
+        '''
         if parent is None:
             parent = data[0][2]
             # 去除已请求过的父元素
@@ -87,15 +96,25 @@ class Topic(object):
             Main.x_lock.release()
             # print('topic parse failed: %s' % (e.args,))
 
-    # 话题详情页
     def request_infos(self, token=None):
+        '''
+        话题详情页
+        :param token:
+        :return:
+        '''
         response = self.session.get(token)
-        self.session.cookies.save()
+        # self.session.cookies.save()
         if response.status_code == 200:
             return response
         raise Exception('线程 %s 下载话题详情：%s 失败 响应状态码 %s' % (threading.current_thread().name, token, response.status_code))
 
     def parse_infos(self, text, token):
+        '''
+        解析用户主页
+        :param text:
+        :param token:
+        :return:
+        '''
         soup = BeautifulSoup(text, 'lxml')
         # 获取desc,url,name,image,bestAnsweredCount,unansweredCount,questions
         res1 = soup.select('main.App-main meta')[0:7]
@@ -115,33 +134,29 @@ class Topic(object):
             # print(n.attrs['itemprop'] + " " + n.attrs['content'])
         return infos
 
-    # 請求話題數據
     def request_topic(self, url=None):
-        # 更新token
-        Main.session_lock.acquire()
-        self.session.headers.update({
-            'x-xsrftoken': self._update_xsrf()
-        })
-        _xsrf = self.session.headers['x-xsrftoken']
-        Main.session_lock.release()
-        response = self.session.post(url, data={'_xsrf': _xsrf})
-        self.session.cookies.save()
-        if response.status_code == 200:
-            return response
-        raise Exception('线程 %s 请求话题：%s 失败 响应状态码 %s' % (threading.current_thread().name, url, response.status_code))
-
-    def _update_xsrf(self):
         '''
-        更新header的请求头
+        請求話題數據
+        :param url:
         :return:
         '''
-        # self.session.cookies.load(ignore_discard=True)
-        for c in self.session.cookies:
-            if c.name == '_xsrf':
-                return c.value
+        # 获取post参数
+        my_cookies = requests.utils.dict_from_cookiejar(self.session.cookies)
+        _xsrf = my_cookies['_xsrf']
 
-    # 保存数据库
+        response = self.session.post(url, data={'_xsrf': _xsrf})
+        # self.session.cookies.save()
+        if response.status_code == 200:
+            return response
+        print(response.headers)
+        raise Exception('线程 %s 请求话题：%s 失败 响应状态码 %s' % (threading.current_thread().name, url, response.status_code))
+
     def save(self, data):
+        '''
+        保存数据库
+        :param data:
+        :return:
+        '''
         cur = Topic.con.cursor()
         sql = "replace into topic values (default ,'{}','{}','{}','{}','{}','{}','{}','{}','{}','{}')".format(
             data['token'],
@@ -163,6 +178,9 @@ class Topic(object):
         Topic.con.commit()
         cur.close()
 
-    # 关闭数据库连接
     def close(self):
+        '''
+        关闭数据库连接
+        :return:
+        '''
         Topic.con.close()

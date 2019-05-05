@@ -5,7 +5,7 @@ import mysql.connector
 
 class DbUtil:
     __host = 'localhost'
-    __database = 'zhihutest'
+    __database = 'zhihu'
     __user = 'root'
     __password = ''
 
